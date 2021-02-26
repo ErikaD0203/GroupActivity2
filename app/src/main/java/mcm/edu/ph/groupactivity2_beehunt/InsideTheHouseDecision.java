@@ -27,19 +27,19 @@ public class InsideTheHouseDecision extends AppCompatActivity implements View.On
     @Override
     public void onClick (View view) {
 
-        Intent next = new Intent(InsideTheHouseDecision.this, HouseOutcome.class);
+        Intent insidehouse = new Intent(InsideTheHouseDecision.this, HouseOutcome.class);
 
         switch (view.getId()) {
             case R.id.btnOpen:
                 Open= true;
-                next .putExtra("Opened", Open);
-                startActivity(next );
+                insidehouse .putExtra("Opened", Open);
+                startActivity(insidehouse);
                 break;
 
             case R.id.btnStay:
                 Open = false;
-                next .putExtra("Opened",Open);
-                startActivity(next );
+                insidehouse.putExtra("Opened",Open);
+                startActivity(insidehouse);
                 break;
         }
     }

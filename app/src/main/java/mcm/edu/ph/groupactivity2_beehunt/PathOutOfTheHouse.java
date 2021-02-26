@@ -28,7 +28,7 @@ public class PathOutOfTheHouse extends AppCompatActivity implements View.OnClick
     @Override
     public void onClick (View view) {
 
-        Intent OutofSchool = new Intent(PathOutOfTheHouse.this, ChatDecision.class);
+        Intent OutofSchool = new Intent(PathOutOfTheHouse.this, FinalOutCome.class);
 
         switch (view.getId()) {
             case R.id.btnAightImmaHeadOut:

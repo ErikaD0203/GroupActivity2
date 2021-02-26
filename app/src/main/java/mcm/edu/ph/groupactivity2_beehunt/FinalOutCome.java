@@ -34,7 +34,7 @@ public class FinalOutCome extends AppCompatActivity implements View.OnClickListe
     }
     @Override
     public void onClick(View v) {
-        Intent next = new Intent(FinalOutCome.this, NextDecision.class);
+        Intent next = new Intent(FinalOutCome.this, LastPart.class);
 
         switch (v.getId()) {
             case R.id.btnFinalOutCome:

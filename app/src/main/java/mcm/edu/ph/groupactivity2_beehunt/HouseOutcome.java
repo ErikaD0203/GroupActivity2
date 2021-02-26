@@ -37,7 +37,7 @@ public class HouseOutcome extends AppCompatActivity implements View.OnClickListe
         Intent OutcomeHouse = new Intent(HouseOutcome.this, HouseStoryAfter.class);
         switch (view.getId()) {
             case R.id.btnHouse:
-                startActivity(OutcomeHouse );
+                startActivity(OutcomeHouse);
                 break;
         }
 

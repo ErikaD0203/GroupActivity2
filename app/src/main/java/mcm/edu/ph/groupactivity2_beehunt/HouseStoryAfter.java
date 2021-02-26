@@ -30,11 +30,11 @@ public class HouseStoryAfter extends AppCompatActivity implements View.OnClickLi
         switch (view.getId()) {
             case R.id.btnHouseStoryAfter:
                 if (HouseAfterStoryPage == 1) {
-                    houseAfter .setText("But as you were about to answer her question. The bees start banging the door even louder..");
+                    houseAfter.setText("But as you were about to answer her question. The bees start banging the door even louder..");
                     HouseAfterStoryPage++;
                 }
                 else if (HouseAfterStoryPage == 2) {
-                    houseAfter .setText("She asks, how did you get yourself into this mess");
+                    houseAfter.setText("She asks, how did you get yourself into this mess");
                     HouseAfterStoryPage++;
                 }
 
